@@ -1,0 +1,62 @@
+/*CSS STYLES*/
+
+* {
+	box-sizing: border-box;
+	background: #353535;
+	font-family: arial;
+}
+
+body {
+	margin: 100px 20%;
+	color: #fff;
+}
+
+.btn {
+	padding: 10px 20px;
+	margin: 100px 0;
+	background-color: cyan;
+}
+
+.box {
+	width: 200px;
+	height: 200px;
+	background-color: #fff;
+
+	position: absolute;
+	z-index: 99;
+}
+
+.thumb {
+	position: absolute;
+	left: 800px;
+	top: 100px;
+	overflow: hidden;
+}
+
+.placeholder {
+	position: absolute;
+	left: 800px;
+	top: 350px;
+	overflow: hidden;
+	border: 3px solid lime;
+	width: 400px;
+	height: 400px;
+	padding: 20px;
+
+	background-size: cover;
+}
+
+.title {
+	margin-top: 300px;
+	color: orange;
+	padding: 20px;
+}
+
+.js-make-red {
+	color: red;
+}
+
+.js-add-bgimg {
+	background-image: url('img/small-pic.jpg');
+}
+
